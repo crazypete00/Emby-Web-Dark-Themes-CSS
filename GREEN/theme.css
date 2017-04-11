@@ -1,3 +1,53 @@
+/*	Swynol Custom Changes	*/
+
+
+/* --- Increase Home Page folder size --- */
+div.homePageSection.section0 .smallBackdropCard-scalable {
+  width: 20%; }
+
+div.cardBox.visualCardBox {
+background-color: transparent !important;}
+
+.cardFooter {
+ background-color: transparent !important;
+}
+
+/* -- Custom Logo -- */
+.logoLibraryMenuButtonText {
+  display: none;
+}
+
+/* -- Remove Logo -- */
+.imgLogoIcon {
+  display: none;
+}
+
+/* -- Login Page Logo -- */
+
+#loginPage {
+    padding-top: 120px;
+}
+#loginPage:before {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 15px;
+    content: " ";
+    background: url(https://imgur.com/MmovXJJ.png);
+    background-size: 100% 100%;
+    width: 583px;
+    height: 196px;
+}
+
+/*-- Home Logo --*/
+h3.libraryMenuButtonText.headerButton img {
+    content: url(https://i.imgur.com/FoNCF4s.png) !important;
+    height: 35px !important;
+}
+
+
 /* 
 	EMBY VERSION : 3.1.5
 _________________________________________________________________________
@@ -500,7 +550,7 @@ a#MediaFolders_anchor.jstree-anchor {
 /* 2.2.4 Others */
 /* Image Files */
 .imgLogoIcon, .adminDrawerLogo img, #loginPage img.imgLogoIcon, body > div.skinHeader > div > div.primaryIcons > h3 > img {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/logo.png) !important; }
+  content: url(https://github.com/crazypete00/Emby-Dark-Themes-Resources/blob/master/images/logos-and-icons/GREEN/logogrey.png) !important; }
 
 .lnkMediaFolder div:first-child {
   background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/mblogoicon.png) !important; }
