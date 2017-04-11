@@ -41,12 +41,6 @@ background-color: transparent !important;}
     height: 196px;
 }
 
-/*-- Home Logo --*/
-h3.libraryMenuButtonText.headerButton img {
-    content: url(https://i.imgur.com/FoNCF4s.png) !important;
-    height: 35px !important;
-}
-
 
 /* 
 	EMBY VERSION : 3.1.5
